@@ -240,6 +240,12 @@ function Sidebar() {
         style={{ background: THEME.panel, borderRight: `1px solid ${THEME.panelLine}` }}
       >
         <div>
+          <img
+             src="/headshot.jpg"
+              alt={PROFILE.name}
+             className="w-16 h-16 rounded-full object-cover mb-4"
+             style={{ border: `2px solid ${THEME.signal}` }}
+          />
           <div style={{ fontFamily: "'Archivo', sans-serif", color: THEME.ink, fontWeight: 700, fontSize: "1.1rem" }}>
             {PROFILE.name}
           </div>
